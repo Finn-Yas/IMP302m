@@ -1,0 +1,14 @@
+# Đường dẫn gốc tới thư mục dữ liệu đã qua xử lý Ablation
+path: ../datasets/SCoralDet_enhanced
+
+# Khai báo các tập dữ liệu con (đường dẫn tương đối tính từ thuộc tính path ở trên)
+train: images/train
+val: images/val
+test: images/test
+
+# Định nghĩa các lớp đối tượng (Hãy sửa lại tên class đúng với bài toán của bạn)
+names:
+  0: hard_coral
+  1: soft_coral
+  2: dead_coral
+  3: sponge

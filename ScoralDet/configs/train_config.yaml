@@ -1,0 +1,10 @@
+# Cấu hình huấn luyện YOLOv12n tiêu chuẩn
+model: yolov12n.pt
+epochs: 100
+batch: 16
+imgsz: 640
+device: 0          # Ghi 0 nếu chạy GPU, hoặc 'cpu' nếu chạy CPU
+workers: 8
+optimizer: AdamW   
+lr0: 0.01
+patience: 15       # Dừng sớm nếu sau 15 epoch điểm Val không tăng
